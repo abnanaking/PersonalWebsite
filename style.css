@@ -15,16 +15,30 @@
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(blue_wallpaper.jpg);
     background-position: center;
     background-size: cover;
-    padding-left: 7vw;
-    padding-right: 8%;
     box-sizing: border-box;
 }
-.BottomTextBox{
+
+.Slider{
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    padding-top: 5vh;
+}
+Test{
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+
+.BottomLeft{
+    position: fixed;
+    bottom: 3vw;
+    left: 8vw;
     display: flex;
-    height: 92%;
     align-items: end;
 }
-.LeftText{
+.TextBox{
     flex-basis: 50%;
 }
 h1{
@@ -40,13 +54,28 @@ p{
     line-height: 4vw;
 }
 
+.Github{
+    position: fixed;
+    bottom: 2vw;
+    right: 8vw;
+}
+
+ul{
+    flex-basis: 50%;
+}
+
+li{
+    vertical-align: middle;
+    list-style: none;
+    display: inline-block;
+    border: solid;
+}
 h2{
-    flex: 1;
+    font-size: 1vw;
     text-align: right;
     color: white;
-    line-height: 6vw;
 }
 img{
-    width: 10vw;
+    width: 15vw;
     cursor: pointer;
 }
